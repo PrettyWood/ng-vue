@@ -1,6 +1,6 @@
 # ng-vue
 
-POC to illustrate how to dynamically switch between an AngularJS and a Vue.JS entry point
+POC to illustrate how to dynamically switch between an AngularJS and a Vue.js entry point
 By default, the Angular version will be launched.
 To use the Vue one just open your console, do
 ```js
