@@ -1,8 +1,5 @@
-import Vue from 'vue'
-import App from './App.vue'
-
-Vue.config.productionTip = false
-
-new Vue({
-  render: h => h(App),
-}).$mount('#app')
+if (localStorage.getItem('USE_VUE')) {
+  require('./vue/entry')
+} else {
+  require('./ng/entry')
+}
